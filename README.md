@@ -1,8 +1,7 @@
 # RToolZ
 A Stealthy Lsass Dumper - can abuse ProcExp152.sys driver to dump PPL Lsass.  
 # What Is So Special About It?
-No calls to MiniDump or any dbghelp.lib methods, all of the dumping process is done MANUALLY by the dumper while  
-reducing the dump size to minimal by removing unessacery data .  
+No calls to MiniDump or any dbghelp.lib methods, all of the dumping process is done MANUALLY by the dumper while reducing the dump size to minimal by removing unessacery DLLs.  
 
 # Methods & How to use 
   
