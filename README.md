@@ -4,7 +4,7 @@ A Stealthy Lsass Dumper - can abuse ProcExp152.sys driver to dump PPL Lsass.
 No calls to MiniDump or any dbghelp.lib methods, all of the dumping process is done MANUALLY by the dumper while  
 reducing the dump size to minimal by removing unessacery data .  
 
-# Methods && How to use 
+# Methods & How to use 
   
 The OmriToolZ have 3 methods to dump lsass:  
 1. The first method is simply using direct syscalls to get an lsass handle.  
