@@ -14,8 +14,8 @@ this can be used to bypass `"RunAsPPL"` lsass defense.
 #### Flags:
 ----------------------------------------------------------------
 `--valid` - flag will be used to generate a dump without randomizing the signiture, if it is not used you must use the restore_signature.sh script.  
-`--write` - spesifics the path where you throw the dump into the disk.  
-`-m` - spesifics the methods listed above.  
+`--write` - specifies the path where you throw the dump into the disk.  
+`-m` - specifies the methods listed above.  
 `-p` - the PID of lsass.exe  
 
 # Credits
