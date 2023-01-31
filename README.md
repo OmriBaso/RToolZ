@@ -9,7 +9,7 @@ The OmriToolZ have 3 methods to dump lsass:
 1. The first method is simply using direct syscalls to get an lsass handle.  
 2. The second method, an handle to lsass is being requested with the `PROCESS_CREATE_PROCESS` permissions, create a new process in the name of lsass and forks the new process in order to get `PROCESS_ALL_ACCESS` to lsass.exe (some kind of handle privilege escaltion).  
 3. The third method can only work with `PROCEXP152.sys` DRIVER loaded, this method will obtain an HANDLE to the driver and abuse it to get an handle on the LSASS.exe process  
-this can be used to bypass `"RunAsPPL"` lsass defense, simply run `.\procexp64.exe -accepteula /t` *BEFORE* using the 3 method of dumping.  
+this can be used to bypass `"RunAsPPL"` lsass defense, simply run `.\procexp64.exe -accepteula /t` *BEFORE* using the third method of dumping, you can also load the driver in any other way that you would like.  
 
 #### Flags:
 ----------------------------------------------------------------
